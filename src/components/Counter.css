@@ -1,0 +1,25 @@
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 4rem;
+    color: rgb(43, 17, 49);
+}
+.buttons{
+    margin-top: 100px;
+}
+button{
+    background-color: rgb(119, 27, 99);
+    color: white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin: 10px;
+    border: 1px solid grey;
+    padding: 6px;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
